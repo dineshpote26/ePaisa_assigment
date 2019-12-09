@@ -52,7 +52,9 @@ class LoginPageState extends State<LoginPage> {
                         color: Colors.white,
                       ),
                       iconSize: 80,
-                      onPressed: () => loginBloc.initiateFacebookLogin(),
+                      onPressed: () {
+                        loginBloc.initiateFacebookLogin();
+                      },
                     ),
                   ),
                 ),
@@ -73,7 +75,9 @@ class LoginPageState extends State<LoginPage> {
                         color: Colors.white,
                       ),
                       iconSize: 80,
-                      onPressed: loginBloc.touchIdAuth,
+                      onPressed: (){
+                        loginBloc.touchIdAuth();
+                      },
                     );
                   }
                   return Container();
@@ -88,7 +92,7 @@ class LoginPageState extends State<LoginPage> {
 
   //navigate to home screen
   changeTheHomePage(BuildContext context) {
-    Navigator.of(context).push(MaterialPageRoute(
+    Navigator.of(context).pushReplacement(MaterialPageRoute(
         builder: (context) =>
             BlocProvider(child: HomePage(), bloc: HomeBloc())));
   }

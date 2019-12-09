@@ -68,11 +68,11 @@ class LoginBloc extends BlocBase {
         _loginStatuscontroller.add(AppConstant.LOGGEDIN);
         print("LoggedIn");
         //final result = await facebookLogin.logInWithReadPermissions(['email']);
-        final token = facebookLoginResult.accessToken.token;
-        Result profileResult = await _loginFBRepo.getFBprofileInfo(token);
+        //final token = facebookLoginResult.accessToken.token;
+        //Result profileResult = await _loginFBRepo.getFBprofileInfo(token);
         PrefsSingleton.prefs.setInt(AppConstant.LOGINTYPE, 1);
         PrefsSingleton.prefs.setBool(AppConstant.SUCESS, true);
-        PrefsSingleton.setFBResultData(profileResult);
+        //PrefsSingleton.setFBResultData(profileResult);
         //changeTheHomePage(context);
         break;
     }
