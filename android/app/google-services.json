@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "370431330702",
+    "firebase_url": "https://episa-261107.firebaseio.com",
+    "project_id": "episa-261107",
+    "storage_bucket": "episa-261107.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370431330702:android:9c8a69921544b87cf47cdf",
+        "android_client_info": {
+          "package_name": "com.dinesh.mpaisa_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "370431330702-1dc4pfdrb3a31qco2iabqfgpc6jhdoe9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dinesh.mpaisa_app",
+            "certificate_hash": "c7df34b6610724997ab79195be33e4bcf7f71305"
+          }
+        },
+        {
+          "client_id": "370431330702-irs1oksbqmtm8tplrgd6npgpgm8ipjlj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYqLEcwG3I5Gt6C9IdlNWPt4gKIwuOlUo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "370431330702-irs1oksbqmtm8tplrgd6npgpgm8ipjlj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
