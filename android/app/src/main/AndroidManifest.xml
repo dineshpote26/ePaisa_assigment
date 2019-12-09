@@ -15,7 +15,7 @@
     <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
 
     <application
-        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:theme="@style/Theme.AppCompat"
         android:name="io.flutter.app.FlutterApplication"
         android:label="mpaisa_app"
         android:icon="@mipmap/ic_launcher">
